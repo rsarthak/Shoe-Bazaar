@@ -1,6 +1,6 @@
 # Shoe Bazar
 ## Cover Image
-(![Screenshot-0.png](https://raw.githubusercontent.com/rsarthak/SVG/main/hero.png)
+![Screenshot-0.png](https://raw.githubusercontent.com/rsarthak/SVG/main/hero.png)
 
 ### Participants
 
