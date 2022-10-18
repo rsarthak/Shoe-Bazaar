@@ -6,6 +6,7 @@
   position: absolute;
   width: 100%;
   z-index: 10;
+  background: rgb(16, 16, 74);
 }
 
 .container h1 {
@@ -27,10 +28,11 @@
   margin-left: 2rem;
   border-radius: 10px;
   transition: all 0.4s;
+  color: white;
 }
 
 .btn:hover {
-  background: #56fbb1;
+  background: rgb(132, 141, 151);
 }
 
 .btn span {
@@ -52,13 +54,15 @@
   padding: 0.5rem;
   margin-left: 2rem;
   text-align: center;
-  background: #d9d9d9;
   border-radius: 10px;
   transition: all 0.4s;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navBtn:hover {
-  background: #56fbb1;
+  background: rgb(132, 141, 151);
+ 
 }
 
 .hamburgurBtn {
@@ -68,10 +72,11 @@
   display: none;
   align-items: center;
   transition: all 0.5s ease-in;
+  color:white;
 }
 
 .hamburgurBtn:hover {
-  background: #56fbb1;
+  background: rgb(132, 141, 151);
 }
 
 .navLinksSm {

@@ -15,11 +15,7 @@ const NavLinks = () => {
           Next.js
         </a>
       </Link>
-      <Link href="https://github.com/VanshajPoonia/shopeee">
-        <a className={styles.navBtn} target="_blank" rel="noreferrer">
-          Github
-        </a>
-      </Link>
+  
     </div>
   );
 };

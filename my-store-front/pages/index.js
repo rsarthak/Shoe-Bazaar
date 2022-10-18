@@ -4,8 +4,7 @@ import { useContext } from "react";
 import { AiFillCaretDown } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import StoreContext from "../context/store-context";
-import MedusaLogo from "../public/mylogo.PNG";
-import field from "../public/fieldSvg.svg";
+import MedusaLogo from "../public/hero.PNG";
 import styles from "../styles/landing-page.module.css";
 import store from "../styles/store.module.css";
 import footer from "../styles/footer.module.css";
@@ -20,67 +19,21 @@ export default function Home({ products }) {
       <main className={styles.main}>
         <div className={styles.hero}>
           <div className={styles.title}>
-            <h1 style={{ margin: 0 }}>Shopeee</h1>
+            <h1 style={{ margin: 0 }}>Shoe Bazar</h1>
             {/* <h1 style={{ margin: 0 }}>+</h1>
             <h1 style={{ margin: 0 }}>Next.js starter</h1> */}
           </div>
-          <div className={styles.links}>
-            <a
-              href="https://docs.medusajs.com/"
-              target="_blank"
-              rel="noreferrer"
-              role="button"
-              className={styles.btn}
-              style={{ background: "#56FBB1", color: "#30363d" }}
-            >
-              Read the docs
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth="0"
-                viewBox="0 0 24 24"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
-              </svg>
-            </a>
-            <a
-              href="https://github.com/VanshajPoonia/shopeee"
-              target="_blank"
-              rel="noreferrer"
-              role="button"
-              className={styles.btn}
-            >
-              View on GitHub
-              <FaGithub />
-            </a>
-          </div>
           <p className={styles.description}>
-            Web Storefront made with <b>NextJS</b>; the best developer experience with all the features
-            you need for production:<i> hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more</i> paired with <b>Medusa</b>; <i>a composable engine</i>
-            that combines an amazing developer experience with <i>endless customizations</i> for merchants to scale.
-
+            Let the feet breathe.
           </p>
         </div>
         <div className={styles.scrollIcon}>
           <Link href="#storeSection" scroll={true} passHref>
-            <AiFillCaretDown size={50}></AiFillCaretDown>
+            <AiFillCaretDown style={{color:"white",marginTop:"4em"}}size={80}></AiFillCaretDown>
           </Link>
-        </div>
-        <div className={styles.canvas}>
-          <Image src={field} alt="field" layout="responsive"></Image>
         </div>
         <section id="storeSection" className={store.container}>
           <h1 className={store.title}>Check out our store</h1>
-          <div className={store.circles}>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
           <div className={store.products}>
             <div className={store.grid}>
               {products &&
@@ -100,7 +53,7 @@ export default function Home({ products }) {
                             <Image
                               src={p.thumbnail}
                               alt="thumbnail"
-                              width={250}
+                              width={290}
                               height={300}
                             ></Image>
                           </div>
@@ -121,15 +74,14 @@ export default function Home({ products }) {
         <div className={footer.main}>
           <div className={footer.listA}>
             <Link href="/">
-              <a style={{ width: "125px" }}>
-                <Image src={MedusaLogo} height="40px" width="100%" alt="logo" />
+              <a style={{ width: "95px" }}>
+                <Image src={MedusaLogo} height="150px" width="155px" alt="logo" />
               </a>
             </Link>
-            <span>© 2022 Vanshaj Poonia – All Rights Reserved</span>
             <span>
               Catch us on{" "}
-              <Link href="mailto:vanshajfirebase@gmail.com">
-                <a style={{ fontWeight: "bold" }}>vanshajfirebase@gmail.com</a>
+              <Link href="mailto:Sarthakr748@gmail.com">
+                <a style={{ fontWeight: "bold" }}>sarthakr748@gmail.com</a>
               </Link>
             </span>
           </div>
@@ -162,12 +114,9 @@ export default function Home({ products }) {
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/VanshajPoonia/shopeee">
-                <a target="_blank">GitHub Repo</a>
-              </Link>
             </li>
             <li>
-              <Link href="https://vanshajpoonia.com">
+              <Link href="https://www.linkedin.com/in/sarthak-rajput-6b924a15b/">
                 <a target="_blank">Contact us</a>
               </Link>
             </li>

@@ -122,12 +122,6 @@ const Product = ({ product }) => {
             <BiShoppingBag />
           </button>
           <div className={styles.tabs}>
-            <div className="tab-titles">
-              <button className={styles.tabtitle}>Product Description</button>
-            </div>
-            <div className="tab-content">
-              <p>{product.description}</p>
-            </div>
           </div>
         </div>
       </div>

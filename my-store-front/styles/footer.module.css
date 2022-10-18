@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
+  color: white;
 }
 
 .main {
@@ -37,7 +38,7 @@
 }
 
 .listA li:hover {
-  color: #56fbb1;
+  color: #f3f9f6;
 }
 
 @media (max-width: 1090px) {

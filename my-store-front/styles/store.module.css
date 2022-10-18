@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .container {
   padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .main {
@@ -16,9 +18,30 @@
 }
 
 .title {
-  font-weight: 400;
+  font-weight: bold;
+  color: white;
+  font-family:'Montserrat', sans-serif ;
+  margin-top:2rem;
+ height: 6rem;
+ width: 25rem;
+ padding-top: 2.23rem;
+ text-align: center;
+ border-radius: 9px;
+ margin-bottom: 3.9rem;
+ font-size: 1.6em;
+ text-shadow: 1px 1px 2px rgb(45, 93, 147), 0 0 1em rgb(15, 16, 16), 0 0 0.2em rgb(2, 11, 27);
+}
+.title:hover{
+  background: #f9f9f9;
+  box-shadow: 0 0 10px #061624, 0 0 40px #e6edf2, 0 0 80px #e5e8e9;
+color: black;
 }
 
+.title_inner {
+  font-weight: 700;
+  background-color: #fabe70;
+  
+}
 .circles {
   display: flex;
   flex-direction: column;
@@ -59,34 +82,45 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+ 
 }
 
 .card {
   width: 400px;
-  height: 560px;
+  height: 440px;
   margin: 2rem;
   padding: 1.5rem;
-
   color: inherit;
   background-color: #f7f6fb;
-  text-align: left;
-  text-decoration: none;
+  text-align: center;
   border: 2px solid #eaeaea;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s ease-in;
+  color: #23325e;
+  text-shadow: 
+  1px 0px 1px #ccc, 0px 1px 1px #eee, 
+  2px 1px 1px #ccc, 1px 2px 1px #eee,
+  3px 2px 1px #ccc, 2px 3px 1px #eee,
+  4px 3px 1px #ccc, 3px 4px 1px #eee,
+  5px 4px 1px #ccc, 4px 5px 1px #eee,
+  6px 5px 1px #ccc, 5px 6px 1px #eee,
+  7px 6px 1px #ccc;
 }
 
 .card h2 {
   font-weight: 400;
+  font-family:'Montserrat', sans-serif  ;
 }
 
 .card:hover {
-  border: 2px solid #56fbb1;
+  -webkit-transition: .2s ease-in;
+  transform: scale(1.02);
 }
 
 .imgHolder {
   width: 100%;
   display: flex;
   justify-content: center;
+  border-radius: 9px;
 }

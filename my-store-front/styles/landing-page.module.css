@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .container {
   min-height: 100vh;
   padding: 0 88px;
@@ -5,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgb(16, 16, 74);
 }
 
 .main {
@@ -23,16 +25,22 @@
 }
 
 .title {
-  font-size: 2.4rem;
+  margin-top: 6rem;
+  font-size: 2.8rem;
   font-weight: bold;
+font-family: 'Montserrat', sans-serif;
+color:white;
+text-shadow: 0 9px 9.5px #0a0704,0 5px rgb(47, 60, 74);
 }
 
 .links {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 0.2rem;
   margin-bottom: 1.5rem;
+  color: rgb(216, 213, 213);
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
@@ -74,8 +82,11 @@
 }
 
 .canvas {
-  width: 100vw;
+  width: 50vw;
+  filter: drop-shadow(1.3rem 1.9rem 12rem rgb(243, 234, 236));
+  
 }
+
 
 @media (max-width: 876px) {
   .links {
@@ -150,4 +161,9 @@
     -webkit-transform: translateY(10px);
     transform: translateY(10px);
   }
+}
+
+.description{
+  color:rgb(219, 223, 229);
+  font-family: 'Montserrat', sans-serif;
 }

@@ -6,7 +6,7 @@ import { BiShoppingBag } from "react-icons/bi";
 import { FaHamburger } from "react-icons/fa";
 import DisplayContext from "../../context/display-context";
 import StoreContext from "../../context/store-context";
-import MedusaLogo from "../../public/mylogo.PNG";
+import MedusaLogo from "../../public/hero.PNG";
 import styles from "../../styles/nav-bar.module.css";
 import { quantity, sum } from "../../utils/helper-functions";
 import NavLinks from "./nav-links";
@@ -34,8 +34,8 @@ export const NavBar = () => {
   return (
     <div className={styles.container}>
       <Link href="/">
-        <a style={{ width: "125px" }}>
-          <Image src={MedusaLogo} height="40px" width="100%" alt="logo" />
+        <a style={{ width: "120px" }}>
+          <Image src={MedusaLogo} height="150px" width="155px" alt="logo" />
         </a>
       </Link>
       <div className={styles.navBtnContainer}>
