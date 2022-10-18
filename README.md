@@ -1,20 +1,28 @@
-# Ecom
+# Shoe Bazar
+## Cover Image
+(![Screenshot-0.png](https://raw.githubusercontent.com/rsarthak/SVG/main/hero.png)
 
 ### Participants
 
-Github : @pwnb0y
+Github : @rsarthak
 
-Twitter : @pwn_b0y
+Twitter : @sarthak_Raj746
 
-Discord : Vicky Aryan#5033
+Discord : Sarthak Rajput#2257
 
 ### Description
 
-We have created a Web storefront using NextJs paired with MedusaJs
+I have created a Shoe Bazar built with NextJs and Medusa.
 
 ### Preview
 
-![Screenshot-2692.png](https://s4.gifyu.com/images/Screenshot-2692.png)
+![Screenshot-1.png](https://raw.githubusercontent.com/rsarthak/SVG/main/S1.png)
+
+![Screenshot-2.png](https://raw.githubusercontent.com/rsarthak/SVG/main/S2.png)
+
+![Screenshot-3.png](https://raw.githubusercontent.com/rsarthak/SVG/main/S3.png)
+
+![Screenshot-4.png](https://raw.githubusercontent.com/rsarthak/SVG/main/S4.png)
 
 ## Set up Project
 
@@ -41,13 +49,13 @@ Here are the steps to be taken after that :
 1. Clone the repository:
 
 ```bash
-https://github.com/pwnb0y/medusa-ecom.git
+https://github.com/pwnb0y/Shoe-Bazaar.git
 ```
 
 1. Change directory and install dependencies:
 
 ```bash
-cd medusa-ecom
+cd Shoe-Bazaar
 medusa new my-medusa-store --seed
 cd my-medusa-store
 medusa develop
@@ -66,6 +74,4 @@ Here are some technologies that were very useful throughout the process :
 - [Readme.so](https://readme.so/editor)
 
 
-### My blog
 
-[BLOG](https://pwnb0y.medium.com)
